@@ -17,3 +17,6 @@ function MovieList({ movies }) {
 }
 
 export default MovieList;
+//put an axios call inside the movielist 
+//erase condition
+//set state in this component, dont pass as props

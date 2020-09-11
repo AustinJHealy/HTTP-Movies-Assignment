@@ -29,12 +29,10 @@ const UpdateMovie = props => {
     }, [])
 
 const changeHandler = e => {
-    let name = e.target.name; 
-    let value = e.target.value; 
 
     setMovieValues({
         ...movieValues,
-        [name]: value, 
+        [e.target.name]: e.target.value, 
     })
 }
 
